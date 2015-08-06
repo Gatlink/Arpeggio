@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="BButton.svg"
+   inkscape:export-filename="D:\Projects\Unity\Arpeggio\Assets\Sprites\BButton.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.24"
+     inkscape:cx="43.023355"
+     inkscape:cy="88.075404"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-924.3622)"
+     style="display:inline">
+    <path
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#ff5555;stroke-width:1.26592863"
+       d="M 64 0.6328125 A 63.367035 63.367035 0 0 0 0.6328125 64 A 63.367035 63.367035 0 0 0 64 127.36719 A 63.367035 63.367035 0 0 0 127.36719 64 A 63.367035 63.367035 0 0 0 64 0.6328125 z M 64 16.070312 A 47.929939 47.929943 0 0 1 111.92969 64 A 47.929939 47.929943 0 0 1 64 111.92969 A 47.929939 47.929943 0 0 1 16.070312 64 A 47.929939 47.929943 0 0 1 64 16.070312 z "
+       transform="translate(0,924.3622)"
+       id="path4136" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.72423172px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="30.147484"
+       y="1025.2806"
+       id="text4144"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99232989,1.0077294)"><tspan
+         sodipodi:role="line"
+         id="tspan4146"
+         x="30.147484"
+         y="1025.2806"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:122.55859375px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#ff5555">B</tspan></text>
+  </g>
+</svg>

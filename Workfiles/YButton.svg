@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   id="svg4693"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="YButton.svg"
+   inkscape:export-filename="D:\Projects\Unity\Arpeggio\Assets\Sprites\YButton.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4695" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="53.164152"
+     inkscape:cy="72.680881"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4698">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-924.3622)">
+    <path
+       style="opacity:1;fill:#f6f63e;fill-opacity:1;stroke:#f6f63e;stroke-width:0.57210928;stroke-opacity:1"
+       d="M 64 0.28515625 A 63.713943 63.713943 0 0 0 0.28515625 64 A 63.713943 63.713943 0 0 0 64 127.71484 A 63.713943 63.713943 0 0 0 127.71484 64 A 63.713943 63.713943 0 0 0 64 0.28515625 z M 64 16.927734 A 47.072132 47.072132 0 0 1 111.07227 64 A 47.072132 47.072132 0 0 1 64 111.07227 A 47.072132 47.072132 0 0 1 16.927734 64 A 47.072132 47.072132 0 0 1 64 16.927734 z "
+       transform="translate(0,924.3622)"
+       id="path5241" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.72718811px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#f6f63e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="25.096167"
+       y="1038.1611"
+       id="text5245"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99770309,1.0023022)"><tspan
+         sodipodi:role="line"
+         id="tspan5247"
+         x="25.096167"
+         y="1038.1611">Y</tspan></text>
+  </g>
+</svg>
