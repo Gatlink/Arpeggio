@@ -8,11 +8,13 @@ public class Pulse : MonoBehaviour
     public float TimeBetweenPulsations = 1f; // in seconds
     public float MaxScale = 1.5f;
 
+    private GameObject _pulse;
     private bool _startPulsing = true;
     private Sprite _sprite;
 
     private void Start()
     {
+        _pulse = transform.GetChild(0).gameObject;
         _sprite = GetComponent<Image>().sprite;
     }
 
@@ -26,25 +28,22 @@ public class Pulse : MonoBehaviour
     {
         _startPulsing = false;
         var startTime = Time.time;
-        var copy = new GameObject("Pulse");
-        var renderer = copy.AddComponent<Image>();
-        renderer.sprite = _sprite;
-        ((RectTransform)copy.transform).sizeDelta = ((RectTransform)transform).sizeDelta;
-        copy.transform.position = transform.position;
-        copy.transform.SetParent(transform);
+        var renderer = _pulse.GetComponent<Image>();
+        var color = renderer.color;
 
         while (Time.time - startTime <= Duration)
         {
             var t = (Time.time - startTime) / Duration;
             var scale = Mathf.Lerp(1, MaxScale, t);
-            var color = renderer.color;
             color.a = Mathf.Lerp(1, 0, t);
-            copy.transform.localScale = new Vector3(scale, scale, 1);
+            _pulse.transform.localScale = new Vector3(scale, scale, 1);
             renderer.color = color;
             yield return null;
         }
 
-        Destroy(copy);
+        _pulse.transform.localScale = Vector3.one;
+        color.a = 1;
+        renderer.color = color;
         yield return new WaitForSeconds(TimeBetweenPulsations);
         _startPulsing = true;
     }
