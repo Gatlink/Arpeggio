@@ -10,23 +10,16 @@ public class Pulse : MonoBehaviour
 
     private GameObject _pulse;
     private Image _pulseImage;
-    private bool _startPulsing = true;
 
     private void Start()
     {
         _pulse = transform.GetChild(0).gameObject;
         _pulseImage = _pulse.GetComponent<Image>();
-    }
-
-    private void Update()
-    {
-        if (_startPulsing)
-            StartCoroutine(Pulsation());
+        StartCoroutine(Pulsation());
     }
 
     private IEnumerator Pulsation()
     {
-        _startPulsing = false;
         var startTime = Time.time;
         var color = _pulseImage.color;
 
@@ -44,6 +37,6 @@ public class Pulse : MonoBehaviour
         color.a = 1;
         _pulseImage.color = color;
         yield return new WaitForSeconds(TimeBetweenPulsations);
-        _startPulsing = true;
+        yield return StartCoroutine(Pulsation());
     }
 }
