@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(FadeOut))]
-public class StartToBegin : MonoBehaviour
+public class Command : MonoBehaviour
 {
-    public GameObject CommandSpawner;
-
     private FadeOut _fadeOut;
 
     public void Start()
@@ -14,10 +12,11 @@ public class StartToBegin : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetAxis("Start") > 0)
-            GetComponent<FadeOut>().enabled = true;
+
+        if (Input.GetAxis("Command A") > 0)
+            _fadeOut.enabled = true;
 
         if (_fadeOut.Faded)
-            CommandSpawner.SetActive(true);
+            Destroy(gameObject);
     }
 }

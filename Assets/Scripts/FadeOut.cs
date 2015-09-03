@@ -5,9 +5,12 @@ using UnityEngine;
 public class FadeOut : MonoBehaviour
 {
     public float Duration = 3f; // in seconds
+    
+    public bool Faded { get; private set; }
 
     public void Start()
     {
+        Faded = false;
         StartCoroutine(FadeInTime());
     }
 
@@ -21,5 +24,7 @@ public class FadeOut : MonoBehaviour
             canvasGroup.alpha = Mathf.Lerp(1, 0, t);
             yield return null;
         }
+
+        Faded = true;
     }
 }

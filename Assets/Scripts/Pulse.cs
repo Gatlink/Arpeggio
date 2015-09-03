@@ -11,7 +11,7 @@ public class Pulse : MonoBehaviour
     private GameObject _pulse;
     private Image _pulseImage;
 
-    private void Start()
+    public void Start()
     {
         _pulse = transform.GetChild(0).gameObject;
         _pulseImage = _pulse.GetComponent<Image>();
