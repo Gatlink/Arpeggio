@@ -6,7 +6,7 @@ public class SpawnCommands : MonoBehaviour
     public float DeadZoneRatio = 0.8f;
 
     private Vector3 _spawnPosition;
-    private Command _commands;
+    private CommandButton _commandsButton;
     private float _maxCommandY;
 
     public void Start()
@@ -14,7 +14,7 @@ public class SpawnCommands : MonoBehaviour
         _spawnPosition = transform.GetChild(0).position;
         var newInstance = (GameObject) Instantiate(CommandPrefabs[0], _spawnPosition, Quaternion.identity);
         newInstance.transform.SetParent(transform);
-        _commands = newInstance.GetComponent<Command>();
+        _commandsButton = newInstance.GetComponent<CommandButton>();
 
         var rect = GetComponent<RectTransform>().rect;
         _maxCommandY = rect.height * DeadZoneRatio + rect.yMin;
@@ -22,10 +22,10 @@ public class SpawnCommands : MonoBehaviour
 
     public void Update()
     {
-        if (_commands && _commands.GetComponent<RectTransform>().anchoredPosition.y >= _maxCommandY)
+        if (_commandsButton && _commandsButton.GetComponent<RectTransform>().anchoredPosition.y >= _maxCommandY)
         {
-            _commands.Kill();
-            _commands = null;
+            _commandsButton.Kill();
+            _commandsButton = null;
         }
     }
 }
